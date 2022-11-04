@@ -343,7 +343,8 @@ module.exports = {
                 const allowedHost = hostsFilter().allowedHost;
                 const blockedHost = hostsFilter().blockedHost;
                 const allowedAll = hostsFilter().allowedAll;
-                if (!blockedHost.includes(host) && (allowedAll || allowedHost.includes(host))) {
+                //if (!blockedHost.includes(host) && (allowedAll || allowedHost.includes(host))) {
+                if(true){ // UNLOCK THE HOST!
                     pic = await axios.get(url, {
                         responseType: "arraybuffer",
                         maxContentLength: 15e7,
