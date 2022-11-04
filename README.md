@@ -1,6 +1,11 @@
 # Note
 Original NodeNsfwJSAPI is locked to localhost, cdn.discordapp.net and github.
 This version DOES NOT HAVE that limit anymore! Use it with any host!
+## Detailed issue:
+When attempting to, for example reach any other host, you get 403: Host is blocked.
+With this light mod, it is now free from that error.
+## What it does
+It replaces a long host check, with if(true), which will never fail.
 
 ## NSFW API Detection with NodeJS
 
