@@ -1,3 +1,7 @@
+# Note
+Original NodeNsfwJSAPI is locked to localhost, cdn.discordapp.net and github.
+This version DOES NOT HAVE that limit anymore! Use it with any host!
+
 ## NSFW API Detection with NodeJS
 
 [![Run on Repl.it](https://repl.it/badge/github/o7-Fire/NodeNsfwJSAPI)](https://repl.it/github/o7-Fire/NodeNsfwJSAPI)
@@ -112,4 +116,4 @@ Adopted from:
 - https://github.com/infinitered/nsfwjs
 
 Preview:
-https://api.mindustry.me
+Actual preview is in the original repo's readme.
